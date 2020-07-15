@@ -1,11 +1,100 @@
 {
-  "users":[{
-    "name":"juan",
-    "id":1
-  },
-  {
-    "name":"pepe",
-    "id":2
-   }         
-  ]
+    "usuarios": [
+        {
+            "usuario": 12345678,
+            "nombre": "Magui",
+            "contrasenia": "12ab",
+            "activo": "si",
+            "avatar": "https://api.adorable.io/avatars/list/mouth1",
+            "fecha": "2019-07-30",
+            "checked": false,
+            "solicitudes": [
+                {
+                    "id": 0,
+                    "fecha": "2019-07-30",
+                    "descripcion": "cambio de comision",
+                    "estado": "abierta",
+                    "checked": false
+                },
+                {
+                    "id": 1,
+                    "fecha": "2020-02-03",
+                    "descripcion": "solicitud libreta",
+                    "estado": "en progreso",
+                    "checked": false
+                },
+                {
+                    "id": 2,
+                    "fecha": "2020-03-07",
+                    "descripcion": "cambio de carrera",
+                    "estado": "cerrada",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "usuario": 87654321,
+            "nombre": "Joni",
+            "contrasenia": "12ab",
+            "activo": "no",
+            "avatar": "https://api.adorable.io/avatars/list/mouth2",
+            "fecha": "2019-07-30",
+            "checked": false,
+            "solicitudes": [
+                {
+                    "id": 0,
+                    "fecha": "2019-07-30",
+                    "descripcion": "cambio de comision",
+                    "estado": "abierta",
+                    "checked": false
+                },
+                {
+                    "id": 1,
+                    "fecha": "2020-02-03",
+                    "descripcion": "solicitud libreta",
+                    "estado": "en progreso",
+                    "checked": false
+                },
+                {
+                    "id": 2,
+                    "fecha": "2020-03-07",
+                    "descripcion": "cambio de carrera",
+                    "estado": "cerrada",
+                    "checked": false
+                }
+            ]
+        },
+        {
+            "usuario": 98765432,
+            "nombre": "Juan",
+            "contrasenia": "12ab",
+            "activo": "si",
+            "avatar": "https://api.adorable.io/avatars/list/mouth3",
+            "fecha": "2019-07-30",
+            "checked": false,
+            "solicitudes": [
+                {
+                    "id": 0,
+                    "fecha": "2019-07-30",
+                    "descripcion": "cambio de comision",
+                    "estado": "abierta",
+                    "checked": false
+                },
+                {
+                    "id": 1,
+                    "fecha": "2020-02-03",
+                    "descripcion": "solicitud libreta",
+                    "estado": "en progreso",
+                    "checked": false
+                },
+                {
+                    "id": 2,
+                    "fecha": "2020-03-07",
+                    "descripcion": "cambio de carrera",
+                    "estado": "cerrada",
+                    "checked": false
+                }
+            ]
+        }
+    ]
 }
